@@ -2,12 +2,15 @@
 layout: default
 ---
 <!-- Header -->
-{% include pageHeader.html %}
-	<!-- Main -->
-	<div id="main">
-		<!-- Content -->
-		<section id="content" class="main">
-			<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
-				{{ content }}
-		</section>
-	</div>
+<header id="header">
+	<h1>{{ page.title }}</h1>
+	<p>{{ page.tagline }}</p>
+</header>
+<!-- Main -->
+<div id="main">
+	<!-- Content -->
+	<section id="content" class="main">
+		<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+			{{ content }}
+	</section>
+</div>
