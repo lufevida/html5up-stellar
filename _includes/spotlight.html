@@ -1,5 +1,9 @@
+{% for page in site.pages %}
+	{% if page.spotlight == %}
+{% endfor %}
+
 <!-- Introduction -->
-<section id="intro" class="{{ page.spotlight }}">
+<section id="intro" class="main">
 	<div class="spotlight">
 		<div class="content">
 			<header class="major">
@@ -17,7 +21,7 @@
 <!-- First Section -->
 <section id="first" class="main special">
 	<header class="major">
-		<h2>Magna veroeros</h2>
+		<h2>{{ page.tagline }}</h2>
 	</header>
 	<ul class="features">
 		<li>
