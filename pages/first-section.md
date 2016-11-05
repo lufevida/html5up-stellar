@@ -7,6 +7,7 @@ image: images/pic4.jpg
 id: two
 buttonTitle: Learn More
 spotlightStyle: two
+# The following values are unique to spotlight style 'two'
 icon1: icon major style1 fa-code
 feature1: Ipsum consequat
 description1: Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.
