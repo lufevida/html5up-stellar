@@ -4,15 +4,14 @@ title: Get Started
 tagline: Congue imperdiet
 image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
-id: secondSection
+id: thirdSection
 # Choose between 4 spotlight styles or leave this blank if you do not want this page to be on the spotlight; to change the order in which pages appear, rename your spotlight pages prepending a number, like '1-page-name.md'
-spotlightStyleThree: true
-# The following values are unique to `spotlightStyleThree`
-description: Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet.
+spotlightStyleFour: true
+# The following values are unique to `spotlightStyleFour`
 buttonTitle: Learn More
 secondButtonTitle: Get Started
-secondButtonLink: page.url
-id: four
+secondButtonLink: pages/elements.html
+description: Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet.
 ---
 
 ## Magna feugiat lorem
