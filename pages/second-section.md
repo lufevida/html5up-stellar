@@ -1,4 +1,6 @@
 ---
+layout: page
+title: Second Section
 tagline: Ipsum consequat
 description: Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet.
 icon1: icon fa-code-fork
