@@ -1,0 +1,100 @@
+{% for my_page in site.pages %}
+	{% if my_page.id %}
+		{% if my_page.spotlightStyle == one %}
+	<!-- Introduction -->
+	<section id="{{ my_page.id }}" class="main">
+		<div class="spotlight">
+			<div class="content">
+				<header class="major">
+					<h2>{{ my_page.tagline }}</h2>
+				</header>
+				<p>{{ my_page.description }} where is my text???</p>
+				<ul class="actions">
+					<li><a href="{{ site.baseurl }}/{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
+				</ul>
+			</div>
+			<span class="image"><img src="{{ site.baseurl }}/{{ my_page.spotlightImage }}" /></span>
+		</div>
+	</section>
+	{% else if my_page.spotlightStyle == two %}
+	<!-- First Section -->
+	<section id="{{ my_page.id }}" class="main special">
+		<header class="major">
+			<h2>{{ my_page.tagline }}</h2>
+		</header>
+		<ul class="features">
+			<li>
+				<span class="{{ my_page.icon1 }}"></span>
+				<h3>{{ my_page.feature1 }}</h3>
+				<p>{{ my_page.description1 }}</p>
+			</li>
+			<li>
+				<span class="{{ my_page.icon2 }}"></span>
+				<h3>{{ my_page.feature2 }}</h3>
+				<p>{{ my_page.description2 }}</p>
+			</li>
+			<li>
+				<span class="{{ my_page.icon3 }}"></span>
+				<h3>{{ my_page.feature3 }}</h3>
+				<p>{{ my_page.description3 }}</p>
+			</li>
+		</ul>
+		<footer class="major">
+			<ul class="actions">
+				<li><a href="{{ site.baseurl }}/{{ my_page.url }}" class="button">{{ my_page.buttonTitle}}</a></li>
+			</ul>
+		</footer>
+	</section>
+	{% else if my_page.spotlightStyle == three %}
+	<!-- Second Section -->
+	<section id="{{ my_page.id }}" class="main special">
+		<header class="major">
+			<h2>{{ my_page.tagline }}</h2>
+			<p>{{ my_page.description }}</p>
+		</header>
+		<ul class="statistics">
+			<li class="style1">
+				<span class="{{ my_page.icon1 }}"></span>
+				<strong>{{ my_page.label1 }}</strong> {{ my_page.title1 }}
+			</li>
+			<li class="style2">
+				<span class="{{ my_page.icon2 }}"></span>
+				<strong>{{ my_page.label2 }}</strong> {{ my_page.title2 }}
+			</li>
+			<li class="style3">
+				<span class="{{ my_page.icon3 }}"></span>
+				<strong>{{ my_page.label3 }}</strong> {{ my_page.title3 }}
+			</li>
+			<li class="style4">
+				<span class="{{ my_page.icon4 }}"></span>
+				<strong>{{ my_page.label4 }}</strong> {{ my_page.title4 }}
+			</li>
+			<li class="style5">
+				<span class="{{ my_page.icon5 }}"></span>
+				<strong>{{ my_page.label5 }}</strong> {{ my_page.title5 }}
+			</li>
+		</ul>
+		<p class="content">{{ my_page.longText }}</p>
+		<footer class="major">
+			<ul class="actions">
+				<li><a href="{{ site.baseurl }}/{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
+			</ul>
+		</footer>
+	</section>
+	{% else if my_page.spotlightStyle == four %}
+	<!-- Get Started -->
+	<section id="{{ my_page.id }}" class="main special">
+		<header class="major">
+			<h2>{{ my_page.tagline }}</h2>
+			<p>{{ my_page.description }}</p>
+		</header>
+		<footer class="major">
+			<ul class="actions">
+				<li><a href="{{ site.baseurl }}/{{ my_page.secondButtonLink }}" class="button special">{{ my_page.secondButtonTitle }}</a></li>
+				<li><a href="{{ site.baseurl }}/{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
+			</ul>
+		</footer>
+	</section>
+		{% endif %}
+	{% endif %}
+{% endfor %}
