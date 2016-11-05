@@ -2,7 +2,7 @@
 layout: page
 title: Introduction
 tagline: Ipsum sed adipiscing
-image: images/pic01.jpg
+image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
 id: introduction
 # Choose between 5 spotlight styles: 'one', 'two', 'three' or 'four'; to change the order in which they appear, rename your spotlight pages prepending a number, like '1-page-name.md'
