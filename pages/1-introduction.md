@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Introduction
-tagline: Ipsum sed adipiscing -- and some more
+tagline: Ipsum sed adipiscing
 image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
-id: introduction
+id: zerothPage
 # Choose between 5 spotlight styles: 'one', 'two', 'three' or 'four'; to change the order in which they appear, rename your spotlight pages prepending a number, like '1-page-name.md'
 spotlightStyle: one
 # The following values are unique to spotlight style 'one'; leave them blank if you do not want this page to be on the spotlight
