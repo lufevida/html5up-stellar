@@ -6,4 +6,5 @@ description: Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat m
 image: pic01.jpg
 spotlightStyle: one # There are four styles. Leave this blank if...
 buttonTitle: Learn More
+id: one
 ---
