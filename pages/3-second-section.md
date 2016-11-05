@@ -2,6 +2,7 @@
 layout: page
 title: Second Section
 tagline: Ipsum consequat
+image: images/pic04.jpg
 description: Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet.
 icon1: icon fa-code-fork
 label1: 5120
