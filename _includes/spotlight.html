@@ -1,7 +1,7 @@
-{% for page in site.pages %}
-	{% if page.spotlightStyle == one %}
+{% for my_page in site.pages %}
+	{% if my_page.spotlightStyle == one %}
 	<!-- Introduction -->
-	<section id="intro" class="main">
+	<section id="{{ my_page.id }}" class="main">
 		<div class="spotlight">
 			<div class="content">
 				<header class="major">
@@ -15,9 +15,9 @@
 			<span class="image"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
 		</div>
 	</section>
-	{% else if page.spotlightStyle == two %}
+	{% else if my_page.spotlightStyle == two %}
 	<!-- First Section -->
-	<section id="first" class="main special">
+	<section id="{{ my_page.id }}" class="main special">
 		<header class="major">
 			<h2>{{ page.tagline }}</h2>
 		</header>
