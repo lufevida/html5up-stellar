@@ -1,22 +1,30 @@
 {% for page in site.pages %}
-	{% if page.spotlight == %}
+	{% if page.permalink %}
+		{% if page.spotlightStyle == one %}
+		<!-- Introduction -->
+		<section id="intro" class="main">
+			<div class="spotlight">
+				<div class="content">
+					<header class="major">
+						<h2>{{ page.tagline }}</h2>
+					</header>
+					<p>{{ page.description }}</p>
+					<ul class="actions">
+						<li><a href="generic.html" class="button">{{ page.buttonTitle }}</a></li>
+					</ul>
+				</div>
+				<span class="image"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+			</div>
+		</section>
+		{% else if page.spotlightStyle == two %}
+	
+		{% else if page.spotlightStyle == three %}
+	
+		{% else if page.spotlightStyle == four %}
+	
+		{% endif %}
+	{% endif %}
 {% endfor %}
-
-<!-- Introduction -->
-<section id="intro" class="main">
-	<div class="spotlight">
-		<div class="content">
-			<header class="major">
-				<h2>{{ page.tagline }}</h2>
-			</header>
-			<p>{{ page.description }}</p>
-			<ul class="actions">
-				<li><a href="generic.html" class="button">Learn More</a></li>
-			</ul>
-		</div>
-		<span class="image"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
-	</div>
-</section>
 
 <!-- First Section -->
 <section id="first" class="main special">
