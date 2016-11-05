@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Generic
+tagline: Ipsum dolor sit amet nullam
+image: pic01.jpg
 ---
 
 <section id="intro" class="main">
