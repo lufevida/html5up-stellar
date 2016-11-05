@@ -10,11 +10,11 @@ spotlightStyleThree: true
 # The following values are unique to `spotlightStyleThree`
 buttonTitle: Learn More
 icon1: icon fa-code-fork
-#label1: 5120
-#title1: Etiam
-#icon2: icon fa-folder-open-o
-#label2: 8192
-#title2: Magna
+label1: 5120
+title1: Etiam
+icon2: icon fa-folder-open-o
+label2: 8192
+title2: Magna
 #icon3: icon fa-signal
 #label3: 2048
 #title3: Tempus
