@@ -5,92 +5,92 @@
 		<div class="spotlight">
 			<div class="content">
 				<header class="major">
-					<h2>{{ page.tagline }}</h2>
+					<h2>{{ my_page.tagline }}</h2>
 				</header>
-				<p>{{ page.description }}</p>
+				<p>{{ my_page.description }}</p>
 				<ul class="actions">
-					<li><a href="{{ page.url }}" class="button">{{ page.buttonTitle }}</a></li>
+					<li><a href="{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
 				</ul>
 			</div>
-			<span class="image"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+			<span class="image"><img src="{{ site.baseurl }}/{{ my_page.image }}" alt="" /></span>
 		</div>
 	</section>
 	{% else if my_page.spotlightStyle == two %}
 	<!-- First Section -->
 	<section id="{{ my_page.id }}" class="main special">
 		<header class="major">
-			<h2>{{ page.tagline }}</h2>
+			<h2>{{ my_page.tagline }}</h2>
 		</header>
 		<ul class="features">
 			<li>
-				<span class="{{ page.icon1 }}"></span>
-				<h3>{{ page.feature1 }}</h3>
-				<p>{{ page.description1 }}</p>
+				<span class="{{ my_page.icon1 }}"></span>
+				<h3>{{ my_page.feature1 }}</h3>
+				<p>{{ my_page.description1 }}</p>
 			</li>
 			<li>
-				<span class="{{ page.icon2 }}"></span>
-				<h3>{{ page.feature2 }}</h3>
-				<p>{{ page.description2 }}</p>
+				<span class="{{ my_page.icon2 }}"></span>
+				<h3>{{ my_page.feature2 }}</h3>
+				<p>{{ my_page.description2 }}</p>
 			</li>
 			<li>
-				<span class="{{ page.icon3 }}"></span>
-				<h3>{{ page.feature3 }}</h3>
-				<p>{{ page.description3 }}</p>
+				<span class="{{ my_page.icon3 }}"></span>
+				<h3>{{ my_page.feature3 }}</h3>
+				<p>{{ my_page.description3 }}</p>
 			</li>
 		</ul>
 		<footer class="major">
 			<ul class="actions">
-				<li><a href="{{ page.url }}" class="button">{{ page.buttonTitle}}</a></li>
+				<li><a href="{{ my_page.url }}" class="button">{{ my_page.buttonTitle}}</a></li>
 			</ul>
 		</footer>
 	</section>
-	{% else if page.spotlightStyle == three %}
+	{% else if my_page.spotlightStyle == three %}
 	<!-- Second Section -->
-	<section id="second" class="main special">
+	<section id="{{ my_page.id }}" class="main special">
 		<header class="major">
-			<h2>{{ page.tagline }}</h2>
-			<p>{{ page.description }}</p>
+			<h2>{{ my_page.tagline }}</h2>
+			<p>{{ my_page.description }}</p>
 		</header>
 		<ul class="statistics">
 			<li class="style1">
-				<span class="{{ page.icon1 }}"></span>
-				<strong>{{ page.label1 }}</strong> {{ page.title1 }}
+				<span class="{{ my_page.icon1 }}"></span>
+				<strong>{{ my_page.label1 }}</strong> {{ my_page.title1 }}
 			</li>
 			<li class="style2">
-				<span class="{{ page.icon2 }}"></span>
-				<strong>{{ page.label2 }}</strong> {{ page.title2 }}
+				<span class="{{ my_page.icon2 }}"></span>
+				<strong>{{ my_page.label2 }}</strong> {{ my_page.title2 }}
 			</li>
 			<li class="style3">
-				<span class="{{ page.icon3 }}"></span>
-				<strong>{{ page.label3 }}</strong> {{ page.title3 }}
+				<span class="{{ my_page.icon3 }}"></span>
+				<strong>{{ my_page.label3 }}</strong> {{ my_page.title3 }}
 			</li>
 			<li class="style4">
-				<span class="{{ page.icon4 }}"></span>
-				<strong>{{ page.label4 }}</strong> {{ page.title4 }}
+				<span class="{{ my_page.icon4 }}"></span>
+				<strong>{{ my_page.label4 }}</strong> {{ my_page.title4 }}
 			</li>
 			<li class="style5">
-				<span class="{{ page.icon5 }}"></span>
-				<strong>{{ page.label5 }}</strong> {{ page.title5 }}
+				<span class="{{ my_page.icon5 }}"></span>
+				<strong>{{ my_page.label5 }}</strong> {{ my_page.title5 }}
 			</li>
 		</ul>
-		<p class="content">{{ page.longText }}</p>
+		<p class="content">{{ my_page.longText }}</p>
 		<footer class="major">
 			<ul class="actions">
-				<li><a href="{{ page.url }}" class="button">{{ page.buttonTitle }}</a></li>
+				<li><a href="{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
 			</ul>
 		</footer>
 	</section>
-	{% else if page.spotlightStyle == four %}
+	{% else if my_page.spotlightStyle == four %}
 	<!-- Get Started -->
-	<section id="cta" class="main special">
+	<section id="{{ my_page.id }}" class="main special">
 		<header class="major">
-			<h2>{{ page.tagline }}</h2>
-			<p>{{ page.description }}</p>
+			<h2>{{ my_page.tagline }}</h2>
+			<p>{{ my_page.description }}</p>
 		</header>
 		<footer class="major">
 			<ul class="actions">
-				<li><a href="{{ page.secondButtonLink }}" class="button special">{{ page.secondButtonTitle }}</a></li>
-				<li><a href="{{ page.url }}" class="button">{{ page.buttonTitle }}</a></li>
+				<li><a href="{{ my_page.secondButtonLink }}" class="button special">{{ my_page.secondButtonTitle }}</a></li>
+				<li><a href="{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
 			</ul>
 		</footer>
 	</section>
