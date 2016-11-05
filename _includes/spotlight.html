@@ -1,6 +1,6 @@
 {% for my_page in site.pages %}
 	{% if my_page.id %}
-		{% if my_page.spotlightStyle == one %}
+		{% if my_page.spotlightStyleOne %}
 	<!-- Introduction -->
 	<section id="{{ my_page.id }}" class="main">
 		<div class="spotlight">
@@ -16,7 +16,7 @@
 			<span class="image"><img src="{{ site.baseurl }}/{{ my_page.spotlightImage }}" /></span>
 		</div>
 	</section>
-	{% else if my_page.spotlightStyle == two %}
+	{% else if my_page.spotlightStyleTwo %}
 	<!-- First Section -->
 	<section id="{{ my_page.id }}" class="main special">
 		<header class="major">
@@ -45,7 +45,7 @@
 			</ul>
 		</footer>
 	</section>
-	{% else if my_page.spotlightStyle == three %}
+	{% else if my_page.spotlightStyleThree %}
 	<!-- Second Section -->
 	<section id="{{ my_page.id }}" class="main special">
 		<header class="major">
@@ -81,7 +81,7 @@
 			</ul>
 		</footer>
 	</section>
-	{% else if my_page.spotlightStyle == four %}
+	{% else if my_page.spotlightStyleFour %}
 	<!-- Get Started -->
 	<section id="{{ my_page.id }}" class="main special">
 		<header class="major">
