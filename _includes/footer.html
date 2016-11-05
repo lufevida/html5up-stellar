@@ -1,8 +1,3 @@
-footerTitle: Aliquam sed mauris
-footerText: Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.
-footerButtonTitle: Learn More
-footerButtonLink: pages/elements.html
-
 <footer id="footer">
 	<section>
 		<h2>{{ site.footerTitle }}</h2>
@@ -12,14 +7,14 @@ footerButtonLink: pages/elements.html
 		</ul>
 	</section>
 	<section>
-		<h2>Etiam feugiat</h2>
+		<h2>{{ site.contactTitle }}</h2>
 		<dl class="alt">
 			<dt>Address</dt>
-			<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+			<dd>{{ site.address }}</dd>
 			<dt>Phone</dt>
-			<dd>(000) 000-0000 x 0000</dd>
+			<dd>{{ site.phone }}</dd>
 			<dt>Email</dt>
-			<dd><a href="#">information@untitled.tld</a></dd>
+			<dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
 		</dl>
 		<ul class="icons">
 			{% if site.twitter %}
@@ -39,14 +34,5 @@ footerButtonLink: pages/elements.html
         		{% endif %}
 		</ul>
 	</section>
-	<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+	<p class="copyright">&copy; {{ site.copyright }}. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 </footer>
-
-<!-- Old footer below -->
-
-        {% if site.phone %}
-        <li><a href="tel:{{ site.phone }}" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
-        {% endif %}
-        <li><a href="mailto:{{ site.email }}" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="icon style2 fa-rss"><span class="label">RSS</span></a></li>
-      <li>&copy; {{ site.copyright }}. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
