@@ -9,6 +9,7 @@ id: introduction
 spotlightStyle: one
 # The following values are unique to spotlight style 'one'; leave them blank if you do not want this page to be on the spotlight
 buttonTitle: Learn More
+spotlightImage: images/pic01.jpg
 description: Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.
 ---
 
