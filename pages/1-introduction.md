@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Introduction
-tagline: Ipsum sed adipiscing
+tagline: Ipsum sed adipiscing -- and some more
 image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
 id: introduction
