@@ -3,6 +3,10 @@ layout: page
 title: Second Section
 tagline: Ipsum consequat
 image: images/pic04.jpg
+# Give some unique identifier if you want this page to show on the navigation menu
+id: secondSection
+# Choose between 5 spotlight styles: 'one', 'two', 'three' or 'four'; to change the order in which they appear, rename your spotlight pages prepending a number, like '1-page-name.md'
+spotlightStyle: three
 description: Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet.
 icon1: icon fa-code-fork
 label1: 5120
@@ -21,5 +25,4 @@ label5: 1024
 title5: Nullam
 longText: Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.
 buttonTitle: Learn More
-id:
 ---
