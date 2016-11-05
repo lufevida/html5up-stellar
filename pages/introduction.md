@@ -8,6 +8,3 @@ spotlightStyle: one # There are four styles. Leave this blank if...
 buttonTitle: "Button Title" #"Learn More"
 id: one
 ---
-
-
-https://lufevida.github.io/pages/first-section.html
