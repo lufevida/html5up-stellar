@@ -1,4 +1,4 @@
-# Settings
+# General Settings
 url: "https://lufevida.github.io"
 baseurl: "/html5up-stellar"
 markdown: kramdown
@@ -8,8 +8,10 @@ footerTitle: Aliquam sed mauris
 footerText: Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.
 footerButtonTitle: Learn More
 footerButtonLink: pages/elements.html
-contactTitle: Etiam feugiat
 copyright: Copyright Owner
+
+# Contact Settings
+contactTitle: Etiam feugiat
 address: 1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA
 email: your-email@domain.com
 phone: 012-345-6789
