@@ -2,7 +2,7 @@
 layout: page
 title: First Section
 tagline: Magna veroeros
-image: images/pic4.jpg
+image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
 id: two
 buttonTitle: Learn More
