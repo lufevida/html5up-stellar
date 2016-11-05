@@ -13,7 +13,7 @@
 					<li><a href="{{ site.baseurl }}/{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
 				</ul>
 			</div>
-			<span class="image"><img src="{{ site.baseurl }}/{{ my_page.spotlightImage }}" /></span>
+			<span class="image"><img src="{{ site.baseurl }}/{{ my_page.spotlightImage }}" alt=""/></span>
 		</div>
 	</section>
 	{% elsif my_page.spotlightStyleTwo %}
@@ -55,7 +55,6 @@
 		<ul class="statistics">
 			<li class="style1">
 				<span class="{{ my_page.icon1 }}"></span>
-				<p>Where is the text???</p>
 				<strong>{{ my_page.label1 }}</strong> {{ my_page.title1 }}
 			</li>
 			<li class="style2">
@@ -91,8 +90,8 @@
 		</header>
 		<footer class="major">
 			<ul class="actions">
-				<li><a href="{{ site.baseurl }}/{{ my_page.secondButtonLink }}" class="button special">{{ my_page.secondButtonTitle }}</a></li>
 				<li><a href="{{ site.baseurl }}/{{ my_page.url }}" class="button">{{ my_page.buttonTitle }}</a></li>
+				<li><a href="{{ site.baseurl }}/{{ my_page.secondButtonLink }}" class="button special">{{ my_page.secondButtonTitle }}</a></li>
 			</ul>
 		</footer>
 	</section>
