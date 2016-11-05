@@ -12,7 +12,9 @@ layout: default
 <div id="main">
 	<!-- Content -->
 	<section id="content" class="main">
-		<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+		{% if page.image %}
+			<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+		{% endif %}
 		{{ content }}
 	</section>
 </div>
