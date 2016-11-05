@@ -4,7 +4,7 @@ title: First Section
 tagline: Magna veroeros
 image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
-id: two
+id: firstSection
 # The following values are unique to spotlight style 'two'; leave them blank if you do not want this page to be on the spotlight
 spotlightStyle: two
 buttonTitle: Learn More
