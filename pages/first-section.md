@@ -1,4 +1,6 @@
 ---
+layout: page
+title: First Section
 tagline: Magna veroeros
 icon1: icon major style1 fa-code
 feature1: Ipsum consequat
