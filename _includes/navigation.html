@@ -2,7 +2,7 @@
 <nav id="nav">
 	<ul>
 		{% for my_page in site.pages %}
-			{% if my_page.title %}
+			{% if my_page.id %}
 				<li><a href="{{ my_page.id | prepend: "#" }}">{{ my_page.title }}</a></li>
 			{% endif %}
 		{% endfor %}
