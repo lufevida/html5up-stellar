@@ -5,9 +5,9 @@ tagline: Magna veroeros
 image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
 id: two
-buttonTitle: Learn More
+# The following values are unique to spotlight style 'two'; leave them blank if you do not want this page to be on the spotlight
 spotlightStyle: two
-# The following values are unique to spotlight style 'two'
+buttonTitle: Learn More
 icon1: icon major style1 fa-code
 feature1: Ipsum consequat
 description1: Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.
