@@ -9,7 +9,7 @@ id: secondSection
 spotlightStyleThree: true
 # The following values are unique to `spotlightStyleThree`
 buttonTitle: Learn More
-#icon1: icon fa-code-fork
+icon1: icon fa-code-fork
 #label1: 5120
 #title1: Etiam
 #icon2: icon fa-folder-open-o
