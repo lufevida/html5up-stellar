@@ -6,7 +6,7 @@ image: images/pic04.jpg
 # Give some unique identifier if you want this page to show on the navigation menu
 id: firstSection
 # Choose between 4 spotlight styles or leave this blank if you do not want this page to be on the spotlight; to change the order in which pages appear, rename your spotlight pages prepending a number, like '1-page-name.md'
-spotlightStyleTwo: true
+# spotlightStyleTwo: true
 # The following values are unique to `spotlightStyleTwo`
 buttonTitle: Learn More
 icon1: icon major style1 fa-code
