@@ -13,3 +13,12 @@ tagline: "Just another free, fully responsive site template built by @ajlkn for 
 #dribbble: username
 #github: username
 #500px: username
+
+footerTitle: Aliquam sed mauris
+footerText: Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.
+footerButtonTitle: Learn More
+footerButtonLink: pages/elements.html
+contactTitle: Etiam feugiat
+address: 1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA
+phone: (000) 000-0000 x 0000
+email: information@untitled.tld
