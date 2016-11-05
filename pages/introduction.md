@@ -5,6 +5,9 @@ tagline: Ipsum sed adipiscing
 description: Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.
 image: {{ site.baseurl }}/pic01.jpg
 spotlightStyle: one # There are four styles. Leave this blank if...
-buttonTitle: "Learn More"
+buttonTitle: "Button Title" #"Learn More"
 id: one
 ---
+
+
+https://lufevida.github.io/pages/first-section.html
