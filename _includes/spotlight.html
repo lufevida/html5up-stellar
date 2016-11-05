@@ -1,59 +1,55 @@
 {% for page in site.pages %}
-	{% if page.permalink %}
-		{% if page.spotlightStyle == one %}
-		<!-- Introduction -->
-		<section id="intro" class="main">
-			<div class="spotlight">
-				<div class="content">
-					<header class="major">
-						<h2>{{ page.tagline }}</h2>
-					</header>
-					<p>{{ page.description }}</p>
-					<ul class="actions">
-						<li><a href="generic.html" class="button">{{ page.buttonTitle }}</a></li>
-					</ul>
-				</div>
-				<span class="image"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+	{% if page.spotlightStyle == one %}
+	<!-- Introduction -->
+	<section id="intro" class="main">
+		<div class="spotlight">
+			<div class="content">
+				<header class="major">
+					<h2>{{ page.tagline }}</h2>
+				</header>
+				<p>{{ page.description }}</p>
+				<ul class="actions">
+					<li><a href="{{ page.url }}" class="button">{{ page.buttonTitle }}</a></li>
+				</ul>
 			</div>
-		</section>
-		{% else if page.spotlightStyle == two %}
-	
-		{% else if page.spotlightStyle == three %}
-	
-		{% else if page.spotlightStyle == four %}
-	
-		{% endif %}
+			<span class="image"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+		</div>
+	</section>
+	{% else if page.spotlightStyle == two %}
+	<!-- First Section -->
+	<section id="first" class="main special">
+		<header class="major">
+			<h2>{{ page.tagline }}</h2>
+		</header>
+		<ul class="features">
+			<li>
+				<span class="icon major style1 fa-code"></span>
+				<h3>{{ page.feature1 }}</h3>
+				<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+			</li>
+			<li>
+				<span class="icon major style3 fa-copy"></span>
+				<h3>Amed sed feugiat</h3>
+				<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+			</li>
+			<li>
+				<span class="icon major style5 fa-diamond"></span>
+				<h3>Dolor nullam</h3>
+				<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+			</li>
+		</ul>
+		<footer class="major">
+			<ul class="actions">
+				<li><a href="generic.html" class="button">Learn More</a></li>
+			</ul>
+		</footer>
+	</section>
+	{% else if page.spotlightStyle == three %}
+
+	{% else if page.spotlightStyle == four %}
+
 	{% endif %}
 {% endfor %}
-
-<!-- First Section -->
-<section id="first" class="main special">
-	<header class="major">
-		<h2>{{ page.tagline }}</h2>
-	</header>
-	<ul class="features">
-		<li>
-			<span class="icon major style1 fa-code"></span>
-			<h3>Ipsum consequat</h3>
-			<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-		</li>
-		<li>
-			<span class="icon major style3 fa-copy"></span>
-			<h3>Amed sed feugiat</h3>
-			<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-		</li>
-		<li>
-			<span class="icon major style5 fa-diamond"></span>
-			<h3>Dolor nullam</h3>
-			<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-		</li>
-	</ul>
-	<footer class="major">
-		<ul class="actions">
-			<li><a href="generic.html" class="button">Learn More</a></li>
-		</ul>
-	</footer>
-</section>
 
 <!-- Second Section -->
 <section id="second" class="main special">
