@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Generic
 tagline: "choose"
 image: pic04.jpg
